@@ -104,11 +104,11 @@
 				876B5C8920AE7A520065817F /* AppDelegate.swift */,
 				876B5C8B20AE7A520065817F /* LoginViewController.swift */,
 				879F72B420B66C9600F47B5E /* WinePageViewController.swift */,
+				87FD57A420D1FF4200FD7A0C /* WineListTableViewController.swift */,
 				876B5C8D20AE7A520065817F /* Main.storyboard */,
 				876B5C9020AE7A520065817F /* Assets.xcassets */,
 				876B5C9220AE7A520065817F /* LaunchScreen.storyboard */,
 				876B5C9520AE7A520065817F /* Info.plist */,
-				87FD57A420D1FF4200FD7A0C /* WineListTableViewController.swift */,
 			);
 			path = "wine cellar";
 			sourceTree = "<group>";
