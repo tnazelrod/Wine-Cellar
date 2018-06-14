@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876B5C8A20AE7A520065817F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B5C8920AE7A520065817F /* AppDelegate.swift */; };
+		876B5C8C20AE7A520065817F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B5C8B20AE7A520065817F /* LoginViewController.swift */; };
+		876B5C8F20AE7A520065817F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876B5C8D20AE7A520065817F /* Main.storyboard */; };
+		876B5C9120AE7A520065817F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876B5C9020AE7A520065817F /* Assets.xcassets */; };
+		876B5C9420AE7A520065817F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876B5C9220AE7A520065817F /* LaunchScreen.storyboard */; };
+		876B5C9F20AE7A530065817F /* wine_cellarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B5C9E20AE7A530065817F /* wine_cellarTests.swift */; };
+		876B5CAA20AE7A530065817F /* wine_cellarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876B5CA920AE7A530065817F /* wine_cellarUITests.swift */; };
+		879F72B520B66C9600F47B5E /* WinePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F72B420B66C9600F47B5E /* WinePageViewController.swift */; };
+		87FD57A520D1FF4200FD7A0C /* WineListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD57A420D1FF4200FD7A0C /* WineListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876B5C9B20AE7A530065817F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876B5C7E20AE7A520065817F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876B5C8520AE7A520065817F;
+			remoteInfo = "wine cellar";
+		};
+		876B5CA620AE7A530065817F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876B5C7E20AE7A520065817F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876B5C8520AE7A520065817F;
+			remoteInfo = "wine cellar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876B5C8620AE7A520065817F /* wine cellar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wine cellar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876B5C8920AE7A520065817F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876B5C8B20AE7A520065817F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		876B5C8E20AE7A520065817F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876B5C9020AE7A520065817F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876B5C9320AE7A520065817F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876B5C9520AE7A520065817F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876B5C9A20AE7A530065817F /* wine cellarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wine cellarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876B5C9E20AE7A530065817F /* wine_cellarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wine_cellarTests.swift; sourceTree = "<group>"; };
+		876B5CA020AE7A530065817F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876B5CA520AE7A530065817F /* wine cellarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wine cellarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876B5CA920AE7A530065817F /* wine_cellarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wine_cellarUITests.swift; sourceTree = "<group>"; };
+		876B5CAB20AE7A530065817F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879F72B420B66C9600F47B5E /* WinePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinePageViewController.swift; sourceTree = "<group>"; };
+		87FD57A420D1FF4200FD7A0C /* WineListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876B5C8320AE7A520065817F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B5C9720AE7A530065817F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B5CA220AE7A530065817F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876B5C7D20AE7A520065817F = {
+			isa = PBXGroup;
+			children = (
+				876B5C8820AE7A520065817F /* wine cellar */,
+				876B5C9D20AE7A530065817F /* wine cellarTests */,
+				876B5CA820AE7A530065817F /* wine cellarUITests */,
+				876B5C8720AE7A520065817F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876B5C8720AE7A520065817F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876B5C8620AE7A520065817F /* wine cellar.app */,
+				876B5C9A20AE7A530065817F /* wine cellarTests.xctest */,
+				876B5CA520AE7A530065817F /* wine cellarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876B5C8820AE7A520065817F /* wine cellar */ = {
+			isa = PBXGroup;
+			children = (
+				876B5C8920AE7A520065817F /* AppDelegate.swift */,
+				876B5C8B20AE7A520065817F /* LoginViewController.swift */,
+				879F72B420B66C9600F47B5E /* WinePageViewController.swift */,
+				876B5C8D20AE7A520065817F /* Main.storyboard */,
+				876B5C9020AE7A520065817F /* Assets.xcassets */,
+				876B5C9220AE7A520065817F /* LaunchScreen.storyboard */,
+				876B5C9520AE7A520065817F /* Info.plist */,
+				87FD57A420D1FF4200FD7A0C /* WineListTableViewController.swift */,
+			);
+			path = "wine cellar";
+			sourceTree = "<group>";
+		};
+		876B5C9D20AE7A530065817F /* wine cellarTests */ = {
+			isa = PBXGroup;
+			children = (
+				876B5C9E20AE7A530065817F /* wine_cellarTests.swift */,
+				876B5CA020AE7A530065817F /* Info.plist */,
+			);
+			path = "wine cellarTests";
+			sourceTree = "<group>";
+		};
+		876B5CA820AE7A530065817F /* wine cellarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876B5CA920AE7A530065817F /* wine_cellarUITests.swift */,
+				876B5CAB20AE7A530065817F /* Info.plist */,
+			);
+			path = "wine cellarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876B5C8520AE7A520065817F /* wine cellar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876B5CAE20AE7A530065817F /* Build configuration list for PBXNativeTarget "wine cellar" */;
+			buildPhases = (
+				876B5C8220AE7A520065817F /* Sources */,
+				876B5C8320AE7A520065817F /* Frameworks */,
+				876B5C8420AE7A520065817F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wine cellar";
+			productName = "wine cellar";
+			productReference = 876B5C8620AE7A520065817F /* wine cellar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876B5C9920AE7A530065817F /* wine cellarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876B5CB120AE7A530065817F /* Build configuration list for PBXNativeTarget "wine cellarTests" */;
+			buildPhases = (
+				876B5C9620AE7A530065817F /* Sources */,
+				876B5C9720AE7A530065817F /* Frameworks */,
+				876B5C9820AE7A530065817F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876B5C9C20AE7A530065817F /* PBXTargetDependency */,
+			);
+			name = "wine cellarTests";
+			productName = "wine cellarTests";
+			productReference = 876B5C9A20AE7A530065817F /* wine cellarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876B5CA420AE7A530065817F /* wine cellarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876B5CB420AE7A530065817F /* Build configuration list for PBXNativeTarget "wine cellarUITests" */;
+			buildPhases = (
+				876B5CA120AE7A530065817F /* Sources */,
+				876B5CA220AE7A530065817F /* Frameworks */,
+				876B5CA320AE7A530065817F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876B5CA720AE7A530065817F /* PBXTargetDependency */,
+			);
+			name = "wine cellarUITests";
+			productName = "wine cellarUITests";
+			productReference = 876B5CA520AE7A530065817F /* wine cellarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876B5C7E20AE7A520065817F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Travis Nazelrod";
+				TargetAttributes = {
+					876B5C8520AE7A520065817F = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+					};
+					876B5C9920AE7A530065817F = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876B5C8520AE7A520065817F;
+					};
+					876B5CA420AE7A530065817F = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876B5C8520AE7A520065817F;
+					};
+				};
+			};
+			buildConfigurationList = 876B5C8120AE7A520065817F /* Build configuration list for PBXProject "wine cellar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876B5C7D20AE7A520065817F;
+			productRefGroup = 876B5C8720AE7A520065817F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876B5C8520AE7A520065817F /* wine cellar */,
+				876B5C9920AE7A530065817F /* wine cellarTests */,
+				876B5CA420AE7A530065817F /* wine cellarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876B5C8420AE7A520065817F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B5C9420AE7A520065817F /* LaunchScreen.storyboard in Resources */,
+				876B5C9120AE7A520065817F /* Assets.xcassets in Resources */,
+				876B5C8F20AE7A520065817F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B5C9820AE7A530065817F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B5CA320AE7A530065817F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876B5C8220AE7A520065817F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879F72B520B66C9600F47B5E /* WinePageViewController.swift in Sources */,
+				876B5C8C20AE7A520065817F /* LoginViewController.swift in Sources */,
+				87FD57A520D1FF4200FD7A0C /* WineListTableViewController.swift in Sources */,
+				876B5C8A20AE7A520065817F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B5C9620AE7A530065817F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B5C9F20AE7A530065817F /* wine_cellarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876B5CA120AE7A530065817F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876B5CAA20AE7A530065817F /* wine_cellarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876B5C9C20AE7A530065817F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876B5C8520AE7A520065817F /* wine cellar */;
+			targetProxy = 876B5C9B20AE7A530065817F /* PBXContainerItemProxy */;
+		};
+		876B5CA720AE7A530065817F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876B5C8520AE7A520065817F /* wine cellar */;
+			targetProxy = 876B5CA620AE7A530065817F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876B5C8D20AE7A520065817F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876B5C8E20AE7A520065817F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876B5C9220AE7A520065817F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876B5C9320AE7A520065817F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876B5CAC20AE7A530065817F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876B5CAD20AE7A530065817F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876B5CAF20AE7A530065817F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "wine cellar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nazelrod.wine-cellar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		876B5CB020AE7A530065817F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "wine cellar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nazelrod.wine-cellar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		876B5CB220AE7A530065817F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "wine cellarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nazelrod.wine-cellarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wine cellar.app/wine cellar";
+			};
+			name = Debug;
+		};
+		876B5CB320AE7A530065817F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "wine cellarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nazelrod.wine-cellarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wine cellar.app/wine cellar";
+			};
+			name = Release;
+		};
+		876B5CB520AE7A530065817F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "wine cellarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nazelrod.wine-cellarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "wine cellar";
+			};
+			name = Debug;
+		};
+		876B5CB620AE7A530065817F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "wine cellarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nazelrod.wine-cellarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "wine cellar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876B5C8120AE7A520065817F /* Build configuration list for PBXProject "wine cellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B5CAC20AE7A530065817F /* Debug */,
+				876B5CAD20AE7A530065817F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876B5CAE20AE7A530065817F /* Build configuration list for PBXNativeTarget "wine cellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B5CAF20AE7A530065817F /* Debug */,
+				876B5CB020AE7A530065817F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876B5CB120AE7A530065817F /* Build configuration list for PBXNativeTarget "wine cellarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B5CB220AE7A530065817F /* Debug */,
+				876B5CB320AE7A530065817F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876B5CB420AE7A530065817F /* Build configuration list for PBXNativeTarget "wine cellarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876B5CB520AE7A530065817F /* Debug */,
+				876B5CB620AE7A530065817F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876B5C7E20AE7A520065817F /* Project object */;
+}
